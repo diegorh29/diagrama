@@ -1,0 +1,29 @@
+digraph {
+    node [shape=rectangle]
+    Pensamiento_Sistemico [label="Pensamiento\nSistémico"]
+    node [shape=ellipse]
+    Sistema [label="Sistema"]
+    Interconexion [label="Interconexión\nentre partes"]
+    Emergencia [label="Propiedades\nEmergentes"]
+    Retroalimentacion [label="Retroalimentación"]
+    Pensamiento_Circular [label="Pensamiento\nCircular"]
+    Holistico [label="Enfoque\nHolistico"]
+    Reduccionismo [label="Reduccionismo"]
+    node [shape=rectangle]
+    Ingeniero_Industrial [label="Ingeniero\nIndustrial"]
+    node [shape=diamond]
+    Toma_de_Decisiones [label="Toma de Decisiones"]
+    Pensamiento_Sistemico -> Sistema
+    Pensamiento_Sistemico -> Interconexion
+    Pensamiento_Sistemico -> Emergencia
+    Pensamiento_Sistemico -> Retroalimentacion
+    Pensamiento_Sistemico -> Pensamiento_Circular
+    Pensamiento_Sistemico -> Holistico
+    Pensamiento_Sistemico -> Reduccionismo
+    Ingeniero_Industrial -> Pensamiento_Sistemico
+    Ingeniero_Industrial -> Toma_de_Decisiones
+    Toma_de_Decisiones -> Sistema
+    Toma_de_Decisiones -> Interconexion
+    Toma_de_Decisiones -> Emergencia
+    Toma_de_Decisiones -> Retroalimentacion
+}
